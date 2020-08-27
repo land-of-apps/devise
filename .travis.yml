@@ -10,5 +10,5 @@ services:
 script:
 - APPMAP=true bundle exec rake
 
-#after_script:
-#- env DEBUG=true ruby ./upload-appmaps tmp/appmap/minitest
+after_script:
+- env DEBUG=true ruby ./upload-appmaps tmp/appmap/minitest
