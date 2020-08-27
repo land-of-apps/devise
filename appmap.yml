@@ -1,0 +1,4 @@
+name: devise
+
+packages:
+- path: lib

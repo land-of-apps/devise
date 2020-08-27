@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require "appmap/minitest"
+
 ENV["RAILS_ENV"] = "test"
 DEVISE_ORM = (ENV["DEVISE_ORM"] || :active_record).to_sym
 
