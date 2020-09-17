@@ -14,6 +14,7 @@ rescue LoadError
 end
 
 require "devise"
+require "appmap/railtie"
 
 module RailsApp
   class Application < Rails::Application

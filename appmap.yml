@@ -1,0 +1,15 @@
+name: devise
+
+packages:
+- path: lib/devise/controllers
+- path: lib/devise/hooks
+- path: lib/devise/mailers
+- path: lib/devise/models
+- path: lib/devise/omniauth
+- path: lib/devise/orm
+- path: lib/devise/rails
+- path: lib/devise/strategies
+- path: lib/devise
+  exclude:
+  - test
+- path: lib
