@@ -16,11 +16,21 @@ GIT
       actionview (>= 5.0.1.rc1)
       activesupport (>= 5.0.1.rc1)
 
+GIT
+  remote: https://github.com/applandinc/appmap-ruby
+  revision: f431183d219b45c9e085f15a511056b6ec44f3a1
+  specs:
+    appmap (0.34.3)
+      activesupport
+      faraday
+      gli
+      parser
+      rack
+
 PATH
   remote: .
   specs:
     devise (4.7.2)
-      appmap
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 4.1.0)
@@ -85,12 +95,6 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    appmap (0.34.0)
-      activesupport
-      faraday
-      gli
-      parser
-      rack
     ast (2.4.1)
     bcrypt (3.1.15)
     builder (3.2.4)
@@ -212,6 +216,7 @@ PLATFORMS
 
 DEPENDENCIES
   activemodel-serializers-xml!
+  appmap!
   devise!
   mocha (~> 1.1)
   omniauth
